@@ -1,3 +1,36 @@
+/* 
+    1.  Input variables
+    Input body is set in input variable 
+*/
+let a = input.value1;
+let b = input.value2;
+
+/*
+    2.  Define simple "multiply" function
+*/
+function multiply(a, b) {
+    return a * b;
+}
+
+/*
+    3.  Execute multiply function and store value result variable
+*/
+let resultMultiply = multiply(a, b);
+
+/*
+    4.  Set output model which is returned in REST API
+*/
+output.result = resultMultiply;
+
+/*
+    Optionally: It is possible print values to console
+*/
+log('Result multiply:', resultMultiply);
+
+/*
+    5.  Return output  
+*/
+return output;2724484414463802
 # Built application files
 *.apk
 *.aar
